@@ -17,3 +17,7 @@
 // });
 
 Route::get('/', 'ArticleController@index');
+
+Route::get('user/{name}', function($name){
+    return 'Hello '.$name;
+});
