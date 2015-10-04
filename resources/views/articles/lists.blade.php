@@ -39,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Hello Laravel<br/>I lv y</div>
+                <h1></h1>
             </div>
         </div>
     </body>

@@ -16,7 +16,10 @@
     
 // });
 
-Route::get('/', 'ArticleController@index');
+// Route::get('/', 'ArticleController@index');
+Route::get('/', function(){
+    return view('index.index');
+});
 
 Route::get('user/{name}', function($name){
     return 'Hello '.$name;
