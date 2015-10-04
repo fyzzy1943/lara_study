@@ -67,7 +67,7 @@
             },
             swfPath: 'swf',
             supplied: 'mp3',
-            loop: true,
+            loop: 'true',
             volume: 1.0
         });
 
