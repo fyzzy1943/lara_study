@@ -18,6 +18,6 @@
 
 Route::get('/', 'ArticleController@index');
 
-Route::get('user/{name}', function($name){
+Route::get('user/{name?}', function($name='jj'){
     return 'Hello '.$name;
 });

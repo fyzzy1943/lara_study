@@ -36,6 +36,7 @@
         </style>
     </head>
     <body>
+    <h1>{!!$intro!!}</h1>
         <div class="container">
             <div class="content">
                 <div class="title">Hello Laravel<br/>I lv y</div>

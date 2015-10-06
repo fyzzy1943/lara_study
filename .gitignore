@@ -7,3 +7,5 @@ Homestead.json
 /.settings
 .buildpath
 .project
+deployment.properties
+deployment.xml
