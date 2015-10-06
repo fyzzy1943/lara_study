@@ -7,10 +7,8 @@ Homestead.json
 /.settings
 .buildpath
 .project
-<<<<<<< HEAD
+
 deployment.properties
 deployment.xml
-=======
 
 /.idea
->>>>>>> refs/remotes/origin/master
