@@ -8,4 +8,7 @@ Homestead.json
 .buildpath
 .project
 
+deployment.properties
+deployment.xml
+
 /.idea

@@ -16,7 +16,8 @@ class ArticleController extends Controller
     public function index()
     {
         //
-        return view('articles.lists');
+        $intro='tessst';
+        return view('articles.lists', compact('intro'));
     }
 
     /**
