@@ -15,7 +15,7 @@
     <![endif]-->
     <style>
         body {
-            background: url(/img/index.jpg) no-repeat;
+            background: url({!!getQnResourceUrl('rainy/index.jpg')!!}) no-repeat;
             background-size: 100% auto;        	
         }
 
@@ -59,8 +59,8 @@
         jp.jPlayer({
             ready: function () {
                 $(this).jPlayer('setMedia', {
-                    m4a: '/music/0.m4a',
-                    oga: '/music/0.ogg'
+                    m4a: '{!! getQnResourceUrl('0.m4a') !!}',
+                    oga: '{!! getQnResourceUrl('0.oga') !!}'
                 }).jPlayer('play');
             },
             swfPath: 'swf',
